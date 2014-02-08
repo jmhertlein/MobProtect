@@ -1,0 +1,12 @@
+name: MobProtect
+main: net.jmhertlein.mobprotect.MobProtectPlugin
+version: ${version}
+commands:
+    protect:
+        description: protect a mob by punching it
+        usage: /protect, then punch the mob
+        aliases: [prot]
+    unprotect:
+        description: unprotect a mob by punching it
+        usage: /unprotect, then punch the mob
+        aliases: [unprot]
